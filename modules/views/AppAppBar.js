@@ -66,7 +66,7 @@ function AppAppBar(props) {
               <MDBNavItem>
                 <Link
                   activeClass="active"
-                  to="home"
+                  to="trangchu"
                   spy={true}
                   smooth={true}
                   hashSpy={true}
@@ -81,7 +81,22 @@ function AppAppBar(props) {
               <MDBNavItem>
                 <Link
                   activeClass="active"
-                  to="product"
+                  to="gioithieu"
+                  spy={true}
+                  smooth={true}
+                  hashSpy={true}
+                  offset={-100}
+                  duration={500}
+                  delay={200}
+                  isDynamic={true}
+                >
+                  <p className="nav-link rightLink">GIỚI THIỆU</p>
+                </Link>
+              </MDBNavItem>
+              <MDBNavItem>
+                <Link
+                  activeClass="active"
+                  to="sanpham"
                   spy={true}
                   smooth={true}
                   hashSpy={true}
@@ -93,10 +108,11 @@ function AppAppBar(props) {
                   <p className="nav-link rightLink">SẢN PHẨM</p>
                 </Link>
               </MDBNavItem>
+        
               <MDBNavItem>
                 <Link
                   activeClass="active"
-                  to="about"
+                  to="tintuc"
                   spy={true}
                   smooth={true}
                   hashSpy={true}
@@ -105,13 +121,13 @@ function AppAppBar(props) {
                   delay={200}
                   isDynamic={true}
                 >
-                  <p className="nav-link rightLink">VỀ CHÚNG TÔI</p>
+                  <p className="nav-link rightLink">TIN TỨC</p>
                 </Link>
               </MDBNavItem>
               <MDBNavItem>
                 <Link
                   activeClass="active"
-                  to="activity"
+                  to="lienhe"
                   spy={true}
                   smooth={true}
                   hashSpy={true}
@@ -120,22 +136,7 @@ function AppAppBar(props) {
                   delay={200}
                   isDynamic={true}
                 >
-                  <p className="nav-link rightLink">HOẠT ĐỘNG</p>
-                </Link>
-              </MDBNavItem>
-              <MDBNavItem>
-                <Link
-                  activeClass="active"
-                  to="contact"
-                  spy={true}
-                  smooth={true}
-                  hashSpy={true}
-                  offset={-100}
-                  duration={500}
-                  delay={200}
-                  isDynamic={true}
-                >
-                  <p className="nav-link rightLink">LIÊN HỆ </p>
+                  <p className="nav-link rightLink">LIÊN HỆ</p>
                 </Link>
               </MDBNavItem>
             </MDBNavbarNav>

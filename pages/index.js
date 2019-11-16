@@ -11,19 +11,19 @@ import ButtonPage from "../modules/components/ShopCart";
 export default function Index() {
   return (
     <Layout>
-      <Element name="home">
+      <Element name="trangchu">
         <ProductHero />
       </Element>
-      <Element name="product">
-        <ProductCategories />
-      </Element>
-      <Element name="about">
+      <Element name="gioithieu">
         <AboutUs />
       </Element>
-      <Element name="activity">
+      <Element name="sanpham">
+        <ProductCategories />
+      </Element>
+      <Element name="tintuc">
         <Activity />
       </Element>
-      <Element name="contact">
+      <Element name="lienhe">
         <AppFooter />
       </Element>
     </Layout>
