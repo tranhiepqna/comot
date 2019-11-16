@@ -1,0 +1,20 @@
+.title {
+  font-size: 24pt;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.rightLink {
+  font-size: 14pt;
+  font-weight: 700;
+  margin-left: 10pt;
+}
+
+.main {
+  /* background: #28282a; */
+}
+
+.img {
+  height: 70px;
+  width: 180px;
+}
