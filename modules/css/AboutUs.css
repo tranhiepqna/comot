@@ -1,0 +1,11 @@
+.description {
+  font-size:20px;
+}
+
+.center{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }

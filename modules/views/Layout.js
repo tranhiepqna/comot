@@ -9,7 +9,6 @@ export default function Layout(props) {
     <React.Fragment>
       <AppBar isBack={isBack} />
       <main>{props.children}</main>
-      <ShopCart />
     </React.Fragment>
   );
 }
