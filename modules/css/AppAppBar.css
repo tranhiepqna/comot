@@ -10,6 +10,14 @@
   margin-left: 10pt;
 }
 
+.goBack {
+  font-size: 14pt;
+  margin-left: 10pt;
+  margin-top: 10pt;
+  color: #4a1000;
+  font-weight: 700;
+}
+
 .main {
   /* background: #28282a; */
 }

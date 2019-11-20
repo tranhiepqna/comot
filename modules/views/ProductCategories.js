@@ -17,34 +17,29 @@ const EcommercePage = () => {
   return (
     <section className="text-center my-5 main">
       <h2 className="h1-responsive font-weight-bold text-center my-5">
-        Danh mục sản phẩm
+        Sản phẩm
       </h2>
-      <p className="grey-text text-center w-responsive mx-auto mb-5">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error
-        amet numquam iure provident voluptate esse quasi, veritatis totam
-        voluptas nostrum quisquam eum porro a pariatur veniam.
-      </p>
       <MDBRow center>
         <MDBCol lg="4" md="12" className="mb-lg-0 mb-4">
           <MDBCard wide ecommerce>
             <MDBCardImage
+              className="image"
               cascade
-              src="../../static/images/special_product.jpg"
+              src="../../static/images/loainuaky.jpg"
               top
               alt="sample photo"
             />
             <MDBCardBody cascade className="text-center">
-              <a href="#!" className="text-muted">
-                <h5>Bột ngũ cốc</h5>
-              </a>
-              <MDBCardTitle>
+            <MDBCardTitle>
                 <strong>
-                  <a href="#!">Đặc biệt</a>
+                  <a href="#!">Bột ngũ cốc 12 loại hạt</a>
                 </strong>
               </MDBCardTitle>
+              <a href="#!" className="text-muted">
+                <h5>Loại 1 kg</h5>
+              </a>
               <MDBCardText>
-                Lorem ipsum dolor sit amet, consectetur adipisicing minima
-                veniam elit.
+              Bột ngũ cốc dinh dưỡng 12 loại hạt Cô Một được làm từ các nguyên liệu sạch, không chứa chất bảo quản. Quá trình rang say tự nhiên không làm mất đi đặc tính hoá học của sản phẩm. Sản phẩm giúp bổ sung chất xơ, các loại vitamin như B1, B3, B5, E, sắt, canxi,…
               </MDBCardText>
               <MDBCardFooter className="px-1" transparent>
                 <span className="float-left font-weight-bold"></span>
@@ -57,8 +52,8 @@ const EcommercePage = () => {
                     tooltipContent="Quick look"
                   >
                     <Link
-                      as={`/product/special_product`}
-                      href="/product?special_product"
+                      as={`/sanpham/bot-ngu-coc-12-loai-dau`}
+                      href="/sanpham?special_product"
                     >
                       <a>Chi tiết </a>
                     </Link>
@@ -73,23 +68,23 @@ const EcommercePage = () => {
         <MDBCol lg="4" md="12" className="mb-lg-0 mb-4">
           <MDBCard wide ecommerce>
             <MDBCardImage
+              className="image"
               cascade
-              src="../../static/images/special_product.jpg"
+              src="../../static/images/loainuaky.jpg"
               top
               alt="sample photo"
             />
             <MDBCardBody cascade className="text-center">
-              <a href="#!" className="text-muted">
-                <h5>Bột ngũ cốc</h5>
-              </a>
               <MDBCardTitle>
                 <strong>
-                  <a href="#!">Loại thường</a>
+                  <a href="#!">Bột ngũ cốc 12 loại hạt</a>
                 </strong>
               </MDBCardTitle>
+              <a href="#!" className="text-muted">
+                <h5>Loại 500 gram</h5>
+              </a>
               <MDBCardText>
-                Lorem ipsum dolor sit amet, consectetur adipisicing minima
-                veniam elit.
+              Bột ngũ cốc dinh dưỡng 12 loại hạt Cô Một được làm từ các nguyên liệu sạch, không chứa chất bảo quản. Quá trình rang say tự nhiên không làm mất đi đặc tính hoá học của sản phẩm. Sản phẩm giúp bổ sung chất xơ, các loại vitamin như B1, B3, B5, E, sắt, canxi,…
               </MDBCardText>
               <MDBCardFooter className="px-1" transparent>
                 <span className="float-left font-weight-bold"></span>
@@ -102,8 +97,8 @@ const EcommercePage = () => {
                     tooltipContent="Quick look"
                   >
                     <Link
-                      as={`/product/normal_product`}
-                      href="/product?normal_product"
+                      as={`/sanpham/bot-ngu-coc-12-loai-dau`}
+                      href="/sanpham?normal_product"
                     >
                       <a>Chi tiết </a>
                     </Link>

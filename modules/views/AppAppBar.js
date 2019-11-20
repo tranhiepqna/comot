@@ -16,8 +16,10 @@ import {
 } from "mdbreact";
 import "../css/AppAppBar.css";
 
-const Link = Scroll.Link;
+import Link from 'next/link'
+
 const Events = Scroll.Events;
+
 
 function AppAppBar(props) {
   const { isBack } = props;
@@ -34,6 +36,16 @@ function AppAppBar(props) {
   }, []);
 
   return (
+    <React.Fragment>
+    {
+      isBack ? (
+      <React.Fragment>
+      <Link href='/#lienhe' >
+      <p className="nav-link goBack">TRỞ VỀ TRANG CHỦ</p>
+      </Link>
+      </React.Fragment>
+   
+    ) : (
     <MDBNavbar
       color="#fafafa grey lighten-5"
       light
@@ -42,16 +54,7 @@ function AppAppBar(props) {
       fixed={!isBack && "top"}
       // transparent
     >
-      {isBack ? (
-        <React.Fragment>
-          <img
-            src="../../static/images/logo.png"
-            className="rounded img"
-            alt="aligment"
-            onClick={() => Router.back()}
-          />
-        </React.Fragment>
-      ) : (
+     
         <React.Fragment>
           <MDBNavbarBrand>
             <img
@@ -64,7 +67,7 @@ function AppAppBar(props) {
           <MDBCollapse id="navbarCollapse3" isOpen={isOpen} navbar>
             <MDBNavbarNav right>
               <MDBNavItem>
-                <Link
+                <Scroll.Link
                   activeClass="active"
                   to="trangchu"
                   spy={true}
@@ -76,10 +79,10 @@ function AppAppBar(props) {
                   isDynamic={true}
                 >
                   <p className="nav-link rightLink">TRANG CHỦ</p>
-                </Link>
+                </Scroll.Link>
               </MDBNavItem>
               <MDBNavItem>
-                <Link
+                <Scroll.Link
                   activeClass="active"
                   to="gioithieu"
                   spy={true}
@@ -91,10 +94,10 @@ function AppAppBar(props) {
                   isDynamic={true}
                 >
                   <p className="nav-link rightLink">GIỚI THIỆU</p>
-                </Link>
+                </Scroll.Link>
               </MDBNavItem>
               <MDBNavItem>
-                <Link
+                <Scroll.Link
                   activeClass="active"
                   to="sanpham"
                   spy={true}
@@ -106,11 +109,11 @@ function AppAppBar(props) {
                   isDynamic={true}
                 >
                   <p className="nav-link rightLink">SẢN PHẨM</p>
-                </Link>
+                </Scroll.Link>
               </MDBNavItem>
         
               <MDBNavItem>
-                <Link
+                <Scroll.Link
                   activeClass="active"
                   to="tintuc"
                   spy={true}
@@ -122,10 +125,10 @@ function AppAppBar(props) {
                   isDynamic={true}
                 >
                   <p className="nav-link rightLink">TIN TỨC</p>
-                </Link>
+                </Scroll.Link>
               </MDBNavItem>
               <MDBNavItem>
-                <Link
+                <Scroll.Link
                   activeClass="active"
                   to="lienhe"
                   spy={true}
@@ -137,13 +140,15 @@ function AppAppBar(props) {
                   isDynamic={true}
                 >
                   <p className="nav-link rightLink">LIÊN HỆ</p>
-                </Link>
+                </Scroll.Link>
               </MDBNavItem>
             </MDBNavbarNav>
           </MDBCollapse>
         </React.Fragment>
-      )}
+     
     </MDBNavbar>
+     )}
+     </React.Fragment>
   );
 }
 
