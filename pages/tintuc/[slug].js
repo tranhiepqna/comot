@@ -14,7 +14,7 @@ export default function About(props) {
        <MDBCardBody>
             <MDBCardImage
               alt="Bột ngũ cốc Cô Một"
-              className="img-fluid center w-responsive mx-auto"
+              className="img-fluid center w-responsive"
               src={frontmatter.hero_image}
               height={350}
               width={700}

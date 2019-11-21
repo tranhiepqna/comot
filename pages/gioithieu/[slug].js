@@ -1,5 +1,5 @@
 import ReactMarkdown from 'react-markdown'
-import Layout from "../modules/views/Layout";
+import Layout from "../../modules/views/Layout";
 import matter from 'gray-matter';
 import {
     MDBCardBody,
@@ -27,7 +27,7 @@ export default function About(props) {
 
 About.getInitialProps = async function(context) {
   // grab the file in the posts dir based on the slug
-  const content = await import(`../services/about.md`)
+  const content = await import(`../../services/about.md`)
   // also grab the config file so we can pass down siteTitle
   //gray-matter parses the yaml frontmatter from the md body
   const data = matter(content.default)

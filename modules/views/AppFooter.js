@@ -11,10 +11,14 @@ const FooterPage = () => {
       <MDBContainer fluid className="text-center text-md-left">
         <MDBRow>
           <MDBCol md="6">
-            <h6 className="title">Bột ngũ cốc Cô Một</h6>
-            <p>
-              Tổ 7, thôn Đồng Dương, xã Bình Định Bắc, huyện Thăng Bình, tỉnh
+            <h6 className="title">Cơ sở sản xuất Bột ngũ cốc Cô Một</h6>
+            <p className="h5-responsive">Địa chỉ: <span>
+            Tổ 7, Thôn Đồng Dương, Xã Bình Định Bắc, Huyện Thăng Bình, Tỉnh
               Quảng Nam
+            </span>
+            </p>
+            <p className="h5-responsive">
+             Điện thoại: 0362007304
             </p>
           </MDBCol>
           <MDBCol md="6">
