@@ -8,7 +8,7 @@ import { Element } from "react-scroll";
 
 export default function Index() {
   return (
-    <Layout siteTitle="Cô Một | Bột ngũ cốc dinh dưỡng 12 loại hạt" description="Bột ngũ cốc dinh dưỡng 12 loại hạt Cô Một thơm ngon và bổ dưỡng.">
+    <Layout siteTitle="Bột ngũ cốc Cô Một | Bột ngũ cốc dinh dưỡng 12 loại hạt Cô Một" description="Bột ngũ cốc Cô Một | Bột ngũ cốc dinh dưỡng 12 loại hạt Cô Một thơm ngon và bổ dưỡng.">
       <Element name="trangchu">
         <ProductHero />
       </Element>

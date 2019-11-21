@@ -60,7 +60,7 @@ function AppAppBar(props) {
             <img
               src="../../static/images/logo.webp"
               className="rounded img"
-              alt="Logo bột ngũ Cô Một"
+              alt="Bột ngũ cốc Cô Một"
             />
           </MDBNavbarBrand>
           <MDBNavbarToggler onClick={toggleCollapse} />

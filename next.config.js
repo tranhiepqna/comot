@@ -16,6 +16,7 @@ const nextConfig = {
       "/": { page: "/" },
       "tintuc/:slug": { page: "/tintuc/[slug].js"},
       "gioithieu/:slug": { page: "/gioithieu/[slug].js"},
+      "sanpham/:name": { page: "/sanpham/[name].js"},
     };
   },
   onDemandEntries: function() {
