@@ -40,7 +40,7 @@ function AppAppBar(props) {
     {
       isBack ? (
       <React.Fragment>
-      <Link href='/#lienhe' >
+      <Link prefetch href='/#lienhe' >
       <p className="nav-link goBack">TRỞ VỀ TRANG CHỦ</p>
       </Link>
       </React.Fragment>
@@ -77,6 +77,7 @@ function AppAppBar(props) {
                   duration={500}
                   delay={200}
                   isDynamic={true}
+                  prefetch
                 >
                   <p className="nav-link rightLink">TRANG CHỦ</p>
                 </Scroll.Link>
@@ -92,6 +93,7 @@ function AppAppBar(props) {
                   duration={500}
                   delay={200}
                   isDynamic={true}
+                  prefetch
                 >
                   <p className="nav-link rightLink">GIỚI THIỆU</p>
                 </Scroll.Link>
@@ -107,6 +109,7 @@ function AppAppBar(props) {
                   duration={500}
                   delay={200}
                   isDynamic={true}
+                  prefetch
                 >
                   <p className="nav-link rightLink">SẢN PHẨM</p>
                 </Scroll.Link>
@@ -123,6 +126,7 @@ function AppAppBar(props) {
                   duration={500}
                   delay={200}
                   isDynamic={true}
+                  prefetch
                 >
                   <p className="nav-link rightLink">TIN TỨC</p>
                 </Scroll.Link>
@@ -138,6 +142,7 @@ function AppAppBar(props) {
                   duration={500}
                   delay={200}
                   isDynamic={true}
+                  prefetch
                 >
                   <p className="nav-link rightLink">LIÊN HỆ</p>
                 </Scroll.Link>

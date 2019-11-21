@@ -52,6 +52,7 @@ const EcommercePage = () => {
                     tooltipContent="Quick look"
                   >
                     <Link
+                      prefetch
                       as={`/sanpham/bot-ngu-coc-12-loai-dau`}
                       href="/sanpham?bot-ngu-coc-12-loai-dau"
                     >
@@ -97,6 +98,7 @@ const EcommercePage = () => {
                     tooltipContent="Quick look"
                   >
                     <Link
+                      prefetch
                       as={`/sanpham/bot-ngu-coc-12-loai-dau`}
                       href="/sanpham?bot-ngu-coc-12-loai-dau"
                     >

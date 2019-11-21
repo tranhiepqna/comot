@@ -25,6 +25,7 @@ const FooterPage = () => {
                   href="https://www.facebook.com"
                   target="_blank"
                   rel="Truy cập vào trang của bột ngũ cốc Cô Một trên Facebook"
+                  rel="noreferrer"
                 >
                   <i className="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
                 </a>

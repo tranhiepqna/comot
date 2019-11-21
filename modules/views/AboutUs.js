@@ -31,7 +31,8 @@ const TeamPage = () => {
              <p className="black-text w-responsive mx-auto text-justify description">
              Bột ngũ cốc Cô Một bước đầu nắm được cách chế biến bột ngũ cốc trong dân gian, tự làm bột sử dụng trong gia đình. Một thời gian sau, bà con hàng xóm nhận thấy chất lượng Bột ngũ cốc Cô Một làm ra thơm ngon, bổ dưỡng nên hỏi mua về sử dụng. Tiếng lành đồn xa, dần dà nhiều người hỏi mua và cứ thế lan truyền ra nhiều người nữa biết đến sản phẩm . Trên nền tảng đó tôi dần dần hình thành Cơ sở chế biến Bột ngũ cốc Cô Một. Bước đầu tôi hoàn toàn sản xuất bằng phương pháp bán thủ công, mỗi tháng chỉ sản xuất được khoảng từ 90 đến 150 kg, khách hàng chủ yếu là người địa phương và bạn bè thân quen . Tôi đã duy trì cách sản xuất như trên trong suốt nhiều năm liền . Thời gian gần đây tôi nhận thấy sản phẩm mình làm ra  được khá nhiều khách hàng tin dùng, nên đã quyết định mở rộng quy mô theo phương thức sản xuất hàng hóa.
              <span>
-              <Link   
+              <Link
+                prefetch
                 as={`/gioithieu`}
                 href="/gioithieu"><a>Xem thêm</a>
               </Link>
