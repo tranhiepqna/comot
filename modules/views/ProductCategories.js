@@ -23,7 +23,7 @@ const EcommercePage = () => {
         <MDBCol lg="4" md="12" className="mb-lg-0 mb-4">
           <MDBCard wide ecommerce>
             <MDBCardImage
-              className="image"
+              className="image center"
               cascade
               src="../../static/images/loainuaky.webp"
               top
@@ -69,7 +69,7 @@ const EcommercePage = () => {
         <MDBCol lg="4" md="12" className="mb-lg-0 mb-4">
           <MDBCard wide ecommerce>
             <MDBCardImage
-              className="image"
+              className="image center"
               cascade
               src="../../static/images/loainuaky.webp"
               top
