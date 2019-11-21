@@ -17,8 +17,8 @@ export default function About(props) {
               alt="Bột ngũ cốc Cô Một"
               className="img-fluid center"
               src={frontmatter.hero_image}
-              height={350}
-              width={700}
+              // height={350}
+              // width={700}
             />
          <ReactMarkdown source={markdownBody} className="black-text w-responsive mx-auto text-justify description"/>
       </MDBCardBody>
