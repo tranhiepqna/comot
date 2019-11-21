@@ -10,7 +10,7 @@ import ButtonPage from "../modules/components/ShopCart";
 
 export default function Index() {
   return (
-    <Layout>
+    <Layout siteTitle="Cô Một | Bột ngũ cốc dinh dưỡng 12 loại hạt" description="Bột ngũ cốc dinh dưỡng 12 loại hạt Cô Một thơm ngon và bổ dưỡng.">
       <Element name="trangchu">
         <ProductHero />
       </Element>

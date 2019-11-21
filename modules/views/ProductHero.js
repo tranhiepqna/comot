@@ -23,7 +23,7 @@ class MinimalisticIntro extends Component {
   render() {
     return (
       <>
-        <MDBView src={`../../static/images/background.jpg`}>
+        <MDBView src={`../../static/images/background.webp`}>
           <MDBMask
             overlay="rgba(0, 0, 0, 0.7) rgba-black-strong"
             className="d-flex justify-content-center align-items-center gradient"
@@ -36,7 +36,7 @@ class MinimalisticIntro extends Component {
                   </h1>
                   <hr className="hr-light my-4" />
                   <h5 className="mb-4 white-text font-italic">
-                    <strong>Thơm ngon & Dinh dưỡng</strong>
+                    <strong>Thơm ngon & Bổ dưỡng</strong>
                   </h5>
                 </MDBCol>
               </MDBRow>

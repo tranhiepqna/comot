@@ -58,9 +58,9 @@ function AppAppBar(props) {
         <React.Fragment>
           <MDBNavbarBrand>
             <img
-              src="../../static/images/logo.png"
+              src="../../static/images/logo.webp"
               className="rounded img"
-              alt="aligment"
+              alt="Logo bột ngũ Cô Một"
             />
           </MDBNavbarBrand>
           <MDBNavbarToggler onClick={toggleCollapse} />

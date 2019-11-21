@@ -25,9 +25,9 @@ const EcommercePage = () => {
             <MDBCardImage
               className="image"
               cascade
-              src="../../static/images/loainuaky.jpg"
+              src="../../static/images/loainuaky.webp"
               top
-              alt="sample photo"
+              alt="Bột ngũ cốc Cô Một 12 loại hạt 1 ký"
             />
             <MDBCardBody cascade className="text-center">
             <MDBCardTitle>
@@ -53,7 +53,7 @@ const EcommercePage = () => {
                   >
                     <Link
                       as={`/sanpham/bot-ngu-coc-12-loai-dau`}
-                      href="/sanpham?special_product"
+                      href="/sanpham?bot-ngu-coc-12-loai-dau"
                     >
                       <a>Chi tiết </a>
                     </Link>
@@ -70,9 +70,9 @@ const EcommercePage = () => {
             <MDBCardImage
               className="image"
               cascade
-              src="../../static/images/loainuaky.jpg"
+              src="../../static/images/loainuaky.webp"
               top
-              alt="sample photo"
+              alt="Bột ngũ cốc Cô Một 12 loại hạt 500 gram"
             />
             <MDBCardBody cascade className="text-center">
               <MDBCardTitle>
@@ -98,7 +98,7 @@ const EcommercePage = () => {
                   >
                     <Link
                       as={`/sanpham/bot-ngu-coc-12-loai-dau`}
-                      href="/sanpham?normal_product"
+                      href="/sanpham?bot-ngu-coc-12-loai-dau"
                     >
                       <a>Chi tiết </a>
                     </Link>

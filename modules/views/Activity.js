@@ -37,7 +37,7 @@ const TeamPage = () => {
                 <MDBView>
                   <img
                     className="d-block w-100"
-                    src="https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg"
+                    src="../../static/images/loainuaky.webp"
                     alt="First slide"
                   />
                 </MDBView>
@@ -46,7 +46,7 @@ const TeamPage = () => {
                 <MDBView>
                   <img
                     className="d-block w-100"
-                    src="https://mdbootstrap.com/img/Photos/Slides/img%20(129).jpg"
+                    src="../../static/images/loainuaky.webp"
                     alt="Second slide"
                   />
                 </MDBView>
@@ -55,7 +55,7 @@ const TeamPage = () => {
                 <MDBView>
                   <img
                     className="d-block w-100"
-                    src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"
+                    src="../../static/images/loainuaky.webp"
                     alt="Third slide"
                   />
                 </MDBView>

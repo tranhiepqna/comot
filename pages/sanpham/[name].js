@@ -1,17 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import Layout from "../../modules/views/Layout";
-import matter from "gray-matter";
-import {
-  MDBDropdown,
-  MDBDropdownToggle,
-  MDBDropdownMenu,
-  MDBDropdownItem
-} from "mdbreact";
 import "../../modules/css/Product.css";
 
 function Product(props) {
   return (
-    <Layout isBack={true}>
+    <Layout isBack={true} >
       <div className="container">
         <h1 className="my-4">
           Bột ngũ cốc 12 loại hạt
@@ -20,8 +13,8 @@ function Product(props) {
           <div className="col-md-6">
             <img
               className="img-fluid"
-              src="../../static/images/loainuaky.jpg"
-              alt=""
+              src="../../static/images/loainuaky.webp"
+              alt="Bột ngũ cốc Cô Một 12 loại hạt"
             />
           </div>
 

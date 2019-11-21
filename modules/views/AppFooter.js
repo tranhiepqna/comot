@@ -23,8 +23,8 @@ const FooterPage = () => {
               <li>
                 <a
                   href="https://www.facebook.com"
-                  className="fb-ic fb"
                   target="_blank"
+                  rel="Truy cập vào trang của bột ngũ cốc Cô Một trên Facebook"
                 >
                   <i className="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
                 </a>
@@ -32,7 +32,7 @@ const FooterPage = () => {
               <li>
                 <a
                   href="mailto:toid@example.com?Subject=subject here&Body=bodytext"
-                  className="gplus-ic"
+                  rel="Gửi email tới bột ngũ cốc Cô Một"
                 >
                   <i className="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x">
                     {" "}
@@ -40,7 +40,7 @@ const FooterPage = () => {
                 </a>
               </li>
               <li>
-                <a className="ins-ic">
+                <a className="ins-ic"  rel="Truy cập vào Instagram của bột ngũ cốc Cô Một">
                   <i className="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x">
                     {" "}
                   </i>
