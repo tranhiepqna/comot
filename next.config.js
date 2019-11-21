@@ -13,7 +13,9 @@ const nextConfig = {
   },
   exportPathMap: function() {
     return {
-      "/": { page: "/" }
+      "/": { page: "/" },
+      "tintuc/:slug": { page: "/tintuc/[slug].js"},
+      "gioithieu/:slug": { page: "/gioithieu/[slug].js"},
     };
   },
   onDemandEntries: function() {
@@ -24,6 +26,9 @@ const nextConfig = {
       pagesBufferLength: 2,
     };
   },
+  prerenderPages: function(){
+    return false;
+  }
 };
 
 module.exports = withPlugins([withCSS, withFonts, withImages], nextConfig);

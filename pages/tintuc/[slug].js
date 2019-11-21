@@ -9,7 +9,7 @@ import {
     MDBCardImage,
 } from "mdbreact";
 
-export default function About(props) {
+function News(props) {
   const markdownBody = props.content
   const frontmatter = props.data
   return (
@@ -32,7 +32,7 @@ export default function About(props) {
   );
 }
 
-About.getInitialProps = async function(context) {
+News.getInitialProps = async function(context) {
   const { slug } = context.query
   const content = await import(`../../services/${slug}.md`)
   const data = matter(content.default)
@@ -41,3 +41,5 @@ About.getInitialProps = async function(context) {
     ...data,
   }
 }
+
+export default News;

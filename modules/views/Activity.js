@@ -43,8 +43,9 @@ const TeamPage = () => {
                 </MDBView>
                 <MDBCarouselCaption >
                 <Link  
+                  prefetch
                   as={`/tintuc/Vì-sao-bạn-nên-ăn-bột-ngũ-cốc`}
-                  href="/tintuc?whyuseit"
+                  href="/tintuc/[slug]"
                 >
                 <a className="white-text">
                   <h3 className="h2-responsive font-weight-bold text-center">Vì sao bạn nên ăn bột ngũ cốc?</h3>
@@ -65,9 +66,10 @@ const TeamPage = () => {
                    <MDBMask overlay="black-strong"/>
                 </MDBView>
                 <MDBCarouselCaption>
-                <Link  
+                <Link
+                  prefetch
                   as={`/tintuc/ngu-coc-thanh-phan-va-gia-tri-dinh-du-ng`}
-                  href="/tintuc?ngu-coc-thanh-phan-va-gia-tri-dinh-du-ng"
+                  href="/tintuc/[slug]"
                 >
                 <a className="white-text">
                   <h3 className="h2-responsive font-weight-bold text-center">Ngũ cốc: Thành phần và giá trị dinh dưỡng</h3>

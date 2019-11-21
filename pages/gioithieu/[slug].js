@@ -9,7 +9,7 @@ import {
     MDBCardImage,
 } from "mdbreact";
 
-export default function About(props) {
+function About(props) {
   const markdownBody = props.content
   return (
     <Layout isBack={true} siteTitle={props.siteTitle}>
@@ -42,3 +42,5 @@ About.getInitialProps = async function(context) {
     ...data,
   }
 }
+
+export default About;
