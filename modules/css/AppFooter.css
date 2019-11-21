@@ -12,7 +12,5 @@ li {
   font-size: 24pt;
   color: #ffffff;
   font-weight: bold;
-}
-
-fb:hover {
+  font-display: swap
 }

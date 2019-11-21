@@ -2,12 +2,14 @@
   font-size: 24pt;
   color: #ffffff;
   font-weight: bold;
+  font-display: swap
 }
 
 .rightLink {
   font-size: 14pt;
   font-weight: 700;
   margin-left: 10pt;
+  font-display: swap
 }
 
 .goBack {
@@ -16,10 +18,7 @@
   margin-top: 10pt;
   color: #4a1000;
   font-weight: 700;
-}
-
-.main {
-  /* background: #28282a; */
+  font-display: swap
 }
 
 .img {
