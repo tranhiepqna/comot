@@ -13,7 +13,8 @@ export default function About(props) {
   const markdownBody = props.content
   return (
     <Layout isBack={true} siteTitle={props.siteTitle}>
-       <MDBCardBody>
+     <div className="container">
+     <MDBCardBody>
         <MDBCardImage
               alt="Bột ngũ cốc Cô Một"
               className="img-fluid center"
@@ -24,6 +25,8 @@ export default function About(props) {
          <ReactMarkdown source={markdownBody} className="black-text w-responsive mx-auto text-justify description"/>
          <p className="black-text w-responsive mx-auto text-right description">Kính giới thiệu.</p>
       </MDBCardBody>
+     </div>
+      
     </Layout>
   );
 }
