@@ -34,8 +34,9 @@ class MyDocument extends Document {
     return (
       <html lang="en" dir="ltr">
         <Head>  
-          <title>Cô Một</title>
+          <title>Cô Một | Bột ngũ cốc dinh dưỡng Cô Một</title>
           <meta charSet="utf-8" />
+          <meta name="description" content="Bột ngũ cốc dinh dưỡng Cô Một"/>
           {/* Use minimum-scale=1 to enable GPU rasterization */}
           <meta
             name="viewport"
@@ -51,6 +52,7 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
           />
           <link rel="shortcut icon" href="/static/favicon.ico" />
+
         </Head>
         <body>
           <Main />
