@@ -12,7 +12,7 @@ import {
 function About(props) {
   const markdownBody = props.content
   return (
-    <Layout isBack={true} siteTitle={props.siteTitle}>
+    <Layout isBack={true} siteTitle={props.siteTitle} description="Cơ sở sản xuất bột ngũ cốc Cô Một địa chỉ Xã Bình Định Bắc, Huyện Thăng Bình, Tỉnh Quảng Nam">
      <div className="container">
      <MDBCardBody>
         <MDBCardImage

@@ -1,7 +1,6 @@
 import React from "react";
 import AppBar from "./AppAppBar";
 import Head from "next/head";
-import ShopCart from "../components/ShopCart";
 
 export default function Layout(props) {
   const { isBack } = props;
@@ -12,6 +11,7 @@ export default function Layout(props) {
         <meta charSet="utf-8" />
         <title>{props.siteTitle}</title>
         <meta name="Description" content={props.description}></meta>
+        <link rel="canonical" href="https://comot.vn/" />
       </Head>
       <AppBar isBack={isBack} />
       <main>{props.children}</main>

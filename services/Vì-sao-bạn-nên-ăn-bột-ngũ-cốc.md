@@ -1,6 +1,7 @@
 ---
 title: "Vì sao bạn nên ăn bột ngũ cốc?"
 hero_image: ../static/images/whyuseit.webp
+description: "Bột ngũ cốc cung cấp năng lượng, giàu dinh dưỡng, ngăn ngừa ung thư."
 ---
 
 Ngũ cốc rất đa dạng với gần 300 loại khác nhau, không khó để bạn có thể chọn cho mình 1 vài loại ưa thích để sử dụng. Tuy vậy, hẳn bạn đã biết những lợi ích có được khi ăn ngũ cốc và bột ngũ cốc? Xem thử vì sao nên ăn bột ngũ cốc nhé.

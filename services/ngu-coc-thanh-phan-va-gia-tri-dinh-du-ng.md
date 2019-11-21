@@ -1,6 +1,7 @@
 ---
 title: "Ngũ cốc: Thành phần và giá trị dinh dưỡng"
 hero_image: ../static/images/thanhphan.webp
+description: "Bột ngũ cốc mang lại giá trị dinh dưỡng cao, bổ sung vitamin cần thiết cho cơ thể."
 ---
 Trong thời kỳ cổ đại, “ngũ cốc” là tên gọi chung để chỉ 05 loại thực vật với hạt có thể ăn được: Thóc gạo, ngô, lúa mỳ, lúa mạch và kê. Sau này, “ngũ cốc” là từ hay được dùng để gọi chung cho các loại cây lương thực hay sản phẩm chính thu được từ chúng.
 
