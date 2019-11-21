@@ -19,11 +19,6 @@ const TeamPage = () => {
     <section className="my-5 px-1 pb-5 text-center main">
       <MDBCardBody>
         <h2 className="h1-responsive font-weight-bold my-5">Tin tức</h2>
-        <p className="grey-text w-responsive mx-auto mb-5">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error
-          amet numquam iure provident voluptate esse quasi, veritatis totam
-          voluptas nostrum quisquam eum porro a pariatur veniam.
-        </p>
         <MDBContainer>
           <MDBCarousel
             activeItem={1}

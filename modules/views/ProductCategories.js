@@ -56,7 +56,7 @@ const EcommercePage = () => {
                       as={`/sanpham/bot-ngu-coc-12-loai-dau`}
                       href="/sanpham?bot-ngu-coc-12-loai-dau"
                     >
-                      <a>Chi tiết </a>
+                      <a href="#!" className="font-weight-bold link">Chi tiết </a>
                     </Link>
                     <div>Tooltip on top</div>
                   </MDBTooltip>
@@ -102,7 +102,7 @@ const EcommercePage = () => {
                       as={`/sanpham/bot-ngu-coc-12-loai-dau`}
                       href="/sanpham?bot-ngu-coc-12-loai-dau"
                     >
-                      <a>Chi tiết </a>
+                      <a href="#!" className="font-weight-bold link">Chi tiết </a>
                     </Link>
                     <div>Tooltip on top</div>
                   </MDBTooltip>

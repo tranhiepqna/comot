@@ -1,5 +1,6 @@
 import ReactMarkdown from 'react-markdown'
 import Layout from "../modules/views/Layout";
+import matter from 'gray-matter';
 import {
     MDBCardBody,
     MDBCardImage,
@@ -18,6 +19,7 @@ export default function About(props) {
               width={700}
             />
          <ReactMarkdown source={markdownBody} className="black-text w-responsive mx-auto text-justify description"/>
+         <p className="black-text w-responsive mx-auto text-right description">Kính giới thiệu.</p>
       </MDBCardBody>
     </Layout>
   );

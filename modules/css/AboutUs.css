@@ -1,5 +1,5 @@
 .description {
-  font-size:20px;
+  font-size:20pt;
   font-display: swap;
 }
 
@@ -11,3 +11,7 @@
     margin: auto;
     margin-bottom: 10px;
   }
+.link {
+  font-size: 14pt;
+  font-display: swap;
+}

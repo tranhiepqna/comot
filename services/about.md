@@ -9,5 +9,3 @@ Hưởng ứng : “Chương trình Mỗi xã một sản phẩm tỉnh Quảng 
 Bột ngũ cốc Cô Một hiện nay đã có mặt gần khắp trên các thị xã thị trấn lớn ở Quảng Nam. Đã có mặt tại nhiều điểm bán hang ở thành phố Tam Kỳ, Hội An và thành phố Đà Nẵng. Bột ngũ cốc Cô Một đã có mặt một số điểm ở thành phố Hồ Chí Minh như chợ Bình Tân, khu công nghiệp Sóng Thần Bình Dương.
 
 Trên cơ sở website này, Bột ngũ cốc Cô Một đang hình thành một mạng lưới phân phối sản phẩm trên toàn quốc.
- 
-Kính giới thiệu
