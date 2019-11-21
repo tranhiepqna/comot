@@ -12,14 +12,14 @@ export default function About(props) {
   return (
     <Layout isBack={true} siteTitle={props.siteTitle}>
        <MDBCardBody>
-         <h2 className="black-text w-responsive mx-auto text-justify h1-responsive font-weight-bold">{frontmatter.title}</h2>
-         <MDBCardImage
+            <MDBCardImage
               alt="Bột ngũ cốc Cô Một"
               className="img-fluid center"
               src={frontmatter.hero_image}
-              // height={350}
-              // width={700}
+              height={350}
+              width={700}
             />
+         <h2 className="black-text w-responsive mx-auto text-justify h1-responsive font-weight-bold">{frontmatter.title}</h2>
          <ReactMarkdown source={markdownBody} className="black-text w-responsive mx-auto text-justify description"/>
       </MDBCardBody>
     </Layout>
