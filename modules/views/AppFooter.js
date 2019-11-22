@@ -26,7 +26,7 @@ const FooterPage = () => {
             <ul className="list-unstyled ">
               <li>
                 <a
-                  href="https://www.facebook.com"
+                  href="https://www.facebook.com/comot.vn"
                   target="_blank"
                   rel="Truy cập vào trang của bột ngũ cốc Cô Một trên Facebook"
                   rel="noreferrer"
@@ -36,7 +36,7 @@ const FooterPage = () => {
               </li>
               <li>
                 <a
-                  href="mailto:toid@example.com?Subject=subject here&Body=bodytext"
+                  href="mailto:kd@comot.vn?Subject=subject here&Body=bodytext"
                   rel="Gửi email tới bột ngũ cốc Cô Một"
                 >
                   <i className="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x">

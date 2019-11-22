@@ -9,6 +9,8 @@ import {
   MDBIcon
 } from "mdbreact";
 
+import "../css/ProducHero.css"
+
 class MinimalisticIntro extends Component {
   state = {
     collapsed: false
@@ -31,8 +33,11 @@ class MinimalisticIntro extends Component {
             <MDBContainer>
               <MDBRow>
                 <MDBCol md="12" className="mb-4 white-text text-center">
-                  <h1 className="display-4 text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 amber-text">
-                    BỘT NGŨ CỐC CÔ MỘT
+                  <h1 className="display-4 text-uppercase font-weight-bold mb-0 amber-text title1">
+                    BỘT NGŨ CỐC
+                  </h1>
+                  <h1 className="display-4 text-uppercase font-weight-bold mb-0 amber-text title2">
+                    CÔ MỘt
                   </h1>
                   <hr className="hr-light my-4" />
                   <h5 className="mb-4 white-text font-italic">

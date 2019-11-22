@@ -59,3 +59,16 @@ input[type="number"] {
   -moz-appearance: textfield;
   -webkit-appearance: none;
 }
+
+.marginTop {
+  margin-top: 16px;
+}
+
+.smallImage {
+  width: 200px;
+  height: 100px;
+}
+
+.imgDiv {
+  text-align: center;
+}
