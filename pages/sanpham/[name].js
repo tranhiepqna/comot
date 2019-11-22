@@ -12,7 +12,7 @@ function Product(props) {
   const backImage = name + '-sau' + '.webp';
   const renderImage = isBack ? backImage : image;
   return (
-    <Layout isBack={true} >
+    <Layout isBack={true} siteTitle="Bột ngũ cốc Cô Một 12 loại hạt" description="Bột ngũ cốc Cô Một 12 loại hạt được chế biến đảm bảo chất lượng vệ sinh an toàn thực phẩm.">
       <div className="container">
         <h1 className="my-4">
           Bột ngũ cốc 12 loại hạt
