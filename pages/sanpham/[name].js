@@ -52,7 +52,7 @@ function Product(props) {
             <p>
               Bột ngũ cốc dinh dưỡng 12 loại hạt Cô Một
               được làm từ các nguyên liệu sạch, không chứa chất bảo quản. 
-              Quá trình rang say tự nhiên không làm mất đi đặc tính hoá học của sản phẩm. 
+              Quá trình rang xay tự nhiên không làm mất đi đặc tính hoá học của sản phẩm. 
               Sản phẩm giúp bổ sung chất xơ, các loại vitamin như B1, B3, B5, E, sắt, canxi,… tốt cho trẻ em, người lớn, 
               người đang ăn kiêng, người muốn tăng cân, người cần bổ sung dinh dưỡng.
             </p>
