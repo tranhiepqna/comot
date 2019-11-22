@@ -33,10 +33,10 @@ class MinimalisticIntro extends Component {
             <MDBContainer>
               <MDBRow>
                 <MDBCol md="12" className="mb-4 white-text text-center">
-                  <h1 className="display-4 text-uppercase font-weight-bold mb-0 amber-text title1">
+                  <h1 className="text-uppercase font-weight-bold mb-0 amber-text title1 title3">
                     BỘT NGŨ CỐC
                   </h1>
-                  <h1 className="display-4 text-uppercase font-weight-bold mb-0 amber-text title2">
+                  <h1 className="text-uppercase font-weight-bold mb-0 amber-text title2 title3">
                     CÔ MỘt
                   </h1>
                   <hr className="hr-light my-4" />
