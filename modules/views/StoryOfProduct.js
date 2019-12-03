@@ -17,7 +17,7 @@ const TeamPage = () => {
   return (
     <section className="text-center my-5 main">
       <MDBCardBody>
-        <h2 className="h1-responsive font-weight-bold">Câu chuyên sản phẩm</h2>
+        <h2 className="h1-responsive font-weight-bold">Câu chuyện sản phẩm</h2>
         <MDBCardImage
               alt="Giới thiệu bột ngũ cốc Cô Một"
               className="img-fluid center"
