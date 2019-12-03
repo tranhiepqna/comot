@@ -11,14 +11,16 @@ import {
 
 function About(props) {
   const markdownBody = props.content
+  const frontmatter = props.data
   return (
-    <Layout isBack={true} siteTitle={props.siteTitle} description="Cơ sở sản xuất bột ngũ cốc Cô Một địa chỉ Xã Bình Định Bắc, Huyện Thăng Bình, Tỉnh Quảng Nam">
+    <Layout isBack={true} siteTitle={frontmatter.title} description={frontmatter.description} >
      <div className="container">
      <MDBCardBody>
+        <h2 className="h1-responsive font-weight-bold center">{frontmatter.title}</h2>
         <MDBCardImage
               alt="Bột ngũ cốc Cô Một"
               className="img-fluid center"
-              src="../../static/images/aboutus.webp"
+              src={frontmatter.hero_image}
               height={350}
               width={700}
             />
@@ -33,7 +35,8 @@ function About(props) {
 
 About.getInitialProps = async function(context) {
   // grab the file in the posts dir based on the slug
-  const content = await import(`../../services/about.md`)
+  const { slug } = context.query
+  const content = await import(`../../services/${slug}.md`)
   // also grab the config file so we can pass down siteTitle
   //gray-matter parses the yaml frontmatter from the md body
   const data = matter(content.default)

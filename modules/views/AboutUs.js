@@ -33,7 +33,7 @@ const TeamPage = () => {
              <span>
               <Link
                 prefetch
-                as={`/gioithieu/Bột-ngũ-cốc-Cô-Một`}
+                as={`/gioithieu/bot-ngu-coc-co-mot`}
                 href="/gioithieu/[slug]"><a href="#!" className="font-weight-bold link">Xem thêm</a>
               </Link>
               </span>

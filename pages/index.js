@@ -4,6 +4,7 @@ import ProductCategories from "../modules/views/ProductCategories";
 import Activity from "../modules/views/Activity";
 import AppFooter from "../modules/views/AppFooter";
 import Layout from "../modules/views/Layout";
+import Story from '../modules/views/StoryOfProduct';
 import { Element } from "react-scroll";
 
 export default function Index() {
@@ -14,6 +15,9 @@ export default function Index() {
       </Element>
       <Element name="gioithieu">
         <AboutUs />
+      </Element>
+      <Element name="cau_chuyen_san_pham">
+        <Story />
       </Element>
       <Element name="sanpham">
         <ProductCategories />
