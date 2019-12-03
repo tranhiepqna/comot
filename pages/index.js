@@ -5,6 +5,7 @@ import Activity from "../modules/views/Activity";
 import AppFooter from "../modules/views/AppFooter";
 import Layout from "../modules/views/Layout";
 import Story from '../modules/views/StoryOfProduct';
+import Fair from '../modules/views/Fair';
 import { Element } from "react-scroll";
 
 export default function Index() {
@@ -24,6 +25,9 @@ export default function Index() {
       </Element>
       <Element name="tintuc">
         <Activity />
+      </Element>
+      <Element name="hoatdong">
+        <Fair />
       </Element>
       <Element name="lienhe">
         <AppFooter />

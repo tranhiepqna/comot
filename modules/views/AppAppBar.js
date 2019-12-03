@@ -130,7 +130,23 @@ function AppAppBar(props) {
                   <p className="nav-link rightLink">SẢN PHẨM</p>
                 </Scroll.Link>
               </MDBNavItem>
-        
+
+              <MDBNavItem>
+                <Scroll.Link
+                  activeClass="active"
+                  to="hoatdong"
+                  spy={true}
+                  smooth={true}
+                  hashSpy={true}
+                  offset={-100}
+                  duration={500}
+                  delay={200}
+                  isDynamic={true}
+                  prefetch
+                >
+                  <p className="nav-link rightLink">HOẠT ĐỘNG</p>
+                </Scroll.Link>
+              </MDBNavItem>
               <MDBNavItem>
                 <Scroll.Link
                   activeClass="active"
